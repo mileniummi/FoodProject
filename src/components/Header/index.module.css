@@ -1,0 +1,64 @@
+
+/*NAVIGATION*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 10px;
+    align-items: center;
+}
+
+.pages {
+    margin-top: 7px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 20px 0 0;
+}
+
+.link:hover{
+    color: var(--orange);
+}
+
+/*NAV BUTTON*/
+
+.button {
+    font-family: 'Epilogue', sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0.29411764705882354);
+    color: white;
+    background-color: transparent;
+    padding: 18px 51px 20px 39px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonLink {
+    composes: link;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    padding: 0;
+}
+
+/*LOGO*/
+
+.logo {
+    height: auto;
+    margin-top: 20px;
+    width: 257px;
+}
+
+
+@media screen and (max-width: 991px){
+    .logo{
+        width: 150px;
+    }
+}@media screen and (max-width: 1280px){
+    .logo{
+
+    }
+}

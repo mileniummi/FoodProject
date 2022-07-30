@@ -1,0 +1,11 @@
+.title {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding: 35px;
+}
+
+.container {
+    background: var(--gray);
+    width: 100%;
+}
