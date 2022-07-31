@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
-import Header from "../../Header";
+import Header from "@/components/Header";
 
 const WelcomeScreen = () => {
   return (

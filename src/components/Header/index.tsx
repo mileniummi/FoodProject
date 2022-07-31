@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import { NavLink } from "react-router-dom";
-import Image from "../UI/Image";
+import Image from "@/components/UI/Image";
 // import useCheckMobileScreen from "../../hooks/useCheckMobileScreen";
 
 const Header = () => {
