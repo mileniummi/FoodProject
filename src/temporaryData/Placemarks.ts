@@ -1,4 +1,4 @@
-import { IPlacemark } from "../../../types/placemark";
+import { IPlacemark } from "../types/placemark";
 
 const PlaceMarks: IPlacemark[] = [
   {

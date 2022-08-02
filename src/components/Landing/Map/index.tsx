@@ -1,7 +1,7 @@
 import React from "react";
 import MapHeader from "./MapHeader";
 import { YMaps, Map as YMap } from "@pbe/react-yandex-maps";
-import PlaceMarks from "./Placemarks";
+import PlaceMarks from "../../../temporaryData/Placemarks";
 import PlacemarkWithBalloon from "./PlacemarkWithBaloon";
 
 const mapState = { center: [59.95057279645624, 30.317382784985163], zoom: 11 };
