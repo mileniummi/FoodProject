@@ -8,11 +8,11 @@ const Stars: React.FC<{ filled: number; total?: number }> = ({
   const outlined = total - filled;
   return (
     <>
-      {[...Array(filled)].map(() => (
-        <AiFillStar color={"var(--orange)"} />
+      {[...Array(filled)].map((_, index) => (
+        <AiFillStar key={index} color={"var(--primary)"} />
       ))}
-      {[...Array(outlined)].map(() => (
-        <AiOutlineStar />
+      {[...Array(outlined)].map((_, index) => (
+        <AiOutlineStar key={index} />
       ))}
     </>
   );

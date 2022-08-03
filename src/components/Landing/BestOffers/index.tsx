@@ -9,7 +9,7 @@ const BestOffers = () => {
       <h4 className={styles.title}>Best offers</h4>
       <div className={styles.offersContainer}>
         {offers.map((offer) => (
-          <OfferCard offer={offer} />
+          <OfferCard size="md" offer={offer} />
         ))}
       </div>
     </div>

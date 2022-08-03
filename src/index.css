@@ -8,18 +8,21 @@ html {
 }
 
 #root {
-    --orange: #f15f2b;
+    --primary: #f15f2b;
     --gray: #959595;
 }
 
 .link{
-    color: #f15f2b;
+    color:var(--primary);
 }
 
 .container {
     max-width: 1400px;
     position: relative;
     margin: 0 auto;
+}
+.main {
+    border-top: 1px solid rgba(224, 218, 218, 0.8);
 }
 
 @media screen and (max-width: 1280px) {

@@ -21,8 +21,12 @@
     padding: 20px 20px 0 0;
 }
 
+.link.black {
+    color: black;
+}
+
 .link:hover{
-    color: var(--orange);
+    color: var(--primary);
 }
 
 /*NAV BUTTON*/
@@ -81,7 +85,7 @@
 }
 
 .hiddenLink:hover{
-    color: var(--orange);
+    color: var(--primary);
 }
 
 

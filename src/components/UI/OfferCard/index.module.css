@@ -5,8 +5,14 @@
 }
 
 .container {
-    max-width:450px;
     margin-bottom: 50px;
+}
+
+.container.md{
+    max-width: 450px;
+}
+.container.sm{
+    max-width: 350px;
 }
 
 .image {
@@ -45,7 +51,7 @@
 .button {
     text-transform: uppercase;
     color: white;
-    background: var(--orange);
+    background: var(--primary);
     border: 0;
 
     font-size: 18px;
@@ -69,7 +75,7 @@
     padding: 5px;
     right: 10px;
     bottom: 10px;
-    background: var(--orange);
+    background: var(--primary);
     color: white;
     border-radius: 15px;
 }

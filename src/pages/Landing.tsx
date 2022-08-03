@@ -1,8 +1,8 @@
 import React from "react";
-import WelcomeScreen from "./WelcomeScreen";
-import Map from "./Map";
-import Footer from "./Footer";
 import BestOffers from "@/components/Landing/BestOffers";
+import WelcomeScreen from "@/components/Landing/WelcomeScreen";
+import Map from "@/components/Landing/Map";
+import Footer from "@/components/Landing/Footer";
 
 const Landing = () => {
   return (

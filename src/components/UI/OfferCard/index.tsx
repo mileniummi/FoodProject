@@ -1,17 +1,23 @@
 import React from "react";
 import styles from "./index.module.css";
-import { IOffer } from "@/types/offer";
-import Stars from "@/components/UI/OfferCard/stars";
+import { IEvent } from "@/types/event";
+import Stars from "@/components/UI/stars";
 import {
   BiDish,
   GiCook,
   IoIosPerson,
   TiLocationOutline,
 } from "react-icons/all";
+import classNames from "classnames";
 
-const OfferCard: React.FC<{ offer: IOffer }> = ({ offer }) => {
+interface OfferCardProps {
+  offer: IEvent;
+  size: "sm" | "md";
+}
+
+const OfferCard: React.FC<OfferCardProps> = ({ offer, size }) => {
   return (
-    <div className={styles.container}>
+    <div className={classNames(styles.container, styles[size])}>
       <div className={styles.stars}>
         <Stars filled={offer.stars} />
       </div>

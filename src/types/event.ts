@@ -1,4 +1,4 @@
-export interface IOffer {
+export interface IEvent {
   img: string;
   stars: number;
   name: string;
