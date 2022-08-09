@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    border: 1px solid var(--primary);
+    padding: 5px;
+    max-width: 170px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wrapper {
+    position: relative;
+}
+
+.container:hover{
+    background: var(--primary);
+    color: white;
+
+}
+
+.calendarContainer{
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
